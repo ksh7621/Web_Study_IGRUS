@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+
+
+    function check(){
+    var stname = document.getElementById("name").value;
+    var stpwd = document.getElementById("pwd").value;
+    var stnum= document.getElementById("stnum").value;
+
+
+    if(stname == ""){
+        return alert("name 값이 입력되지 않았습니다.");
+    }
+    
+    else if(stpwd == ""){
+       return alert("pwd 값이 입력되지 않았습니다.");
+    }
+
+    else if (stnum == ""){
+      return  alert("student number 값이 입력되지 않았습니다.");
+    }
+
+    else {
+     return alert("name : " + stname + '\n' + "pwd : " + stpwd + '\n' + "student number : " + stnum + '\n' );
+
+    }   
+
+
+}
+
+    
+     
+</script>
+
+
+</head>
+<body>
+
+    name : <input type = "text" id = "name" /> <br />
+    pwd : <input type = "text" id = "pwd" /> <br />
+    student number : <input type = "text" id = "stnum" /> <br />
+    <input type="button" onclick = "check()" value="제출" />    
+    
+
+</body>
+</html>

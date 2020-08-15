@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>1주차 출석과제</h1>
+
+    <ol>
+        <li>수업듣느라</li>
+        <li>수고 많으셨습니다 :)</li>
+    </ol>
+
+    <ul>
+        <li>질문은 언제나</li>
+        <li>환영입니다 :)</li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <td>
+                아이디                
+            </td>
+            <td>
+                <input type="text" />               
+            </td>
+        </tr>
+        <tr>
+            <td>
+                비밀번호                
+            </td>
+            <td>
+                <input type="password" />               
+            </td>
+        </tr>
+        <tr>
+            <td>
+              Google
+            </td>
+            <td>
+                <a href="https://www.google.co.kr/">구글 홈페이지로 이동</a>
+            </td>
+        </tr>        
+    </table>
+    <br>
+<tr>
+    <td>
+        <input type="button" value = "끝!!" />
+    </td>
+</tr>
+
+</body>
+</html>

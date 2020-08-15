@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+
+    function check(){
+   theForm=document.frm1;
+    if(theForm.input1.value==""){
+    alert("name 값이 입력되지 않았습니다.");}
+    else if(theForm.input2.value==""){
+    alert("pwd값이 입력되지 않았습니다.");}
+    else if(theForm.input3.value==""){
+    alert("student number 값이 입력되지 않았습니다.");
+    }else{
+  alert("name : "+ theForm.input1.value +"\n"+ "pwd : "+ theForm.input2.value+"\n"+"student number : "+ theForm.input3.value);
+}
+}
+    
+     
+</script>
+
+
+</head>
+<body>
+<form name = frm1>
+    name : <input type = "text" name = "input1" /> <br />
+    pwd : <input type = "text" name = "input2"/> <br />
+    student number : <input type = "text" name = "input3" /> <br />
+    <input type="button" onclick = "check()" value="제출" />
+</form>
+    
+</body>
+</html> 

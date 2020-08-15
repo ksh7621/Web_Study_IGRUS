@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function selectNum(){
+        var numSelect = document.getElementById("num");       
+        var value = numSelect.options[numSelect.selectedIndex].value;                 
+        }
+
+        function result(){
+            var numSelect = document.getElementById("num"); 
+            var value = numSelect.options[numSelect.selectedIndex].value;
+            document.write(Math.pow(value,2));   
+        }      
+        
+        </script>
+</head>
+<body>
+    <select name = "num" id = "num" onchange = "selectNum()">
+    <option value = "1" selected> 1 </option>
+    <option value = "2" selected> 2 </option>
+    <option value = "3" selected> 3 </option>
+    <option value = "4" selected> 4 </option>
+    <option value = "5" selected> 5 </option>
+    <option value = "6" selected> 6 </option>
+    <option value = "7" selected> 7 </option>
+    <option value = "8" selected> 8 </option>
+    <option value = "9" selected> 9 </option>       
+    </select>
+    
+
+    <button onclick = "result()">result</button>
+</body>
+</html>
